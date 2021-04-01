@@ -1,38 +1,35 @@
-## Sean Modd TikTok and (Updated) Portfolio Website
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Welcome to the repository containing the code for my personal portfolio! I built this as a means of expanding my knowledge of React.js, using a brand new component library: Chakra UI! You can view this site to gain a better understanding of some of my work experience and accomplishments.
+## Getting Started
 
-### Running Locally
+First, run the development server:
 
-```
-$ git clone https://github.com/seanmodd/mytiktok.git
-$ cd updated-portfolio
-```
-
-Install npm packages
-
-```
-npm i
-```
-
-Start up Next.js server and navigate to `localhost:3000`
-
-```
+```bash
 npm run dev
+# or
+yarn dev
 ```
 
-### Motivation
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Redevelop my portfolio now that I've got about a year of experience under my belt
-- Learn a new component framework (Chakra UI)
-- Gain a better understanding of Next.js and the features it provides out-of-the-box
-- Improve my previous design and site content
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### Technologies Used
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-- React.js as a front-end framework
-- JavaScript as an implementation language
-- Chakra UI for configurable, out-of-the-box React.js components
-- Next.js for server-side rendering, routing, and more
-- Visual Studio Code as in the integrated development environment
-# tiktoknext
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# mytemplate
